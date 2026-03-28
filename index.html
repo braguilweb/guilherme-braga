@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Agência de tecnologia especializada em desenvolvimento web, apps, identidade visual e consultoria em IA para pequenas e médias empresas brasileiras.">
+    <meta name="theme-color" content="#0d0d0d">
+    <meta property="og:title" content="Guilherme Braga | Estratégia Digital & Desenvolvimento Tech">
+    <meta property="og:description" content="Soluções profissionais em desenvolvimento web, apps, identidade visual e consultoria em IA.">
+    <meta property="og:type" content="website">
+    <title>Guilherme Braga | Estratégia Digital & Desenvolvimento Tech</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+    <div class="container">
+        <div class="navbar-content">
+            <div class="logo">Guilherme Braga</div>
+            
+            <div class="nav-links">
+                <a href="#sobre" class="nav-item">Sobre</a>
+                <a href="#servicos" class="nav-item">Serviços</a>
+                <a href="#portfolio" class="nav-item">Portfólio</a>
+                <a href="#contato" class="nav-item">Contato</a>
+                <!-- Botão do WhatsApp que vai aparecer apenas dentro do menu no celular -->
+                <a href="https://wa.me/5522981611821?text=Olá!" target="_blank" class="btn btn-primary mobile-cta">
+                    <i class="fas fa-comments"></i> Conversar
+                </a>
+            </div>
+
+            <div class="nav-actions">
+                <!-- Botão que aparece apenas no Computador -->
+                <a href="https://wa.me/5522981611821?text=Olá!" target="_blank" class="btn btn-primary desktop-cta">
+                    <i class="fas fa-comments"></i> Conversar
+                </a>
+                <!-- Ícone do Menu Hamburguer (Celular) -->
+                <button class="mobile-menu-btn" aria-label="Abrir menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="./video/hero.mp4" type="video/mp4">
+        </video>
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="fade-in">Acelere o Crescimento<br><span class="accent">Digital do Seu Negócio</span></h1>
+                <p class="fade-in delay-1">Soluções profissionais em desenvolvimento web, apps, identidade visual e consultoria em IA para pequenas e médias empresas brasileiras.</p>
+                <div class="hero-buttons fade-in delay-2">
+                    <a href="https://wa.me/5522981611821?text=Olá%20Guilherme!%20Gostaria%20de%20conhecer%20mais%20sobre%20seus%20serviços%20de%20desenvolvimento%20web%20e%20consultoria%20em%20IA." target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                        <i class="fas fa-comments"></i> Solicitar Orçamento
+                    </a>
+                    <a href="#servicos" class="btn btn-outline">
+                        Conhecer Serviços <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="scroll-indicator">
+                    <p>Scroll para explorar</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="about">
+    
+    <!-- NOVO: Imagem de fundo e Máscara escura -->
+    <div class="about-bg-image"></div>
+    <div class="about-overlay"></div>
+
+    <div class="container" style="position: relative; z-index: 2;">
+        <h2 class="section-title">Sobre Mim</h2>
+
+        <!-- TEXTO -->
+        <p class="section-subtitle">
+            Sou Guilherme Braga, especialista em transformar ideias em soluções digitais de alto impacto.
+        </p>
+
+        <p style="text-align: center; max-width: 600px; margin: 0 auto 3rem;">
+            Desenvolvo sites, aplicativos e soluções com inteligência artificial para ajudar empresas a crescer de forma estratégica, com foco em resultado.
+        </p>
+
+        <!-- GRID ORIGINAL (intacto) -->
+        <div class="expertise-grid">
+            <!-- (Seus cards continuam aqui...) -->
+            <div class="expertise-card">
+                <i class="fas fa-code"></i>
+                <h3>Desenvolvimento Web</h3>
+                <p>Sites responsivos e performáticos</p>
+            </div>
+            <div class="expertise-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Aplicativos Mobile</h3>
+                <p>Apps nativos e híbridos</p>
+            </div>
+            <div class="expertise-card">
+                <i class="fas fa-palette"></i>
+                <h3>Identidade Visual</h3>
+                <p>Branding completo e profissional</p>
+            </div>
+            <div class="expertise-card">
+                <i class="fas fa-bolt"></i>
+                <h3>Consultoria em IA</h3>
+                <p>Integração de inteligência artificial</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Technologies Section -->
+    
+    <section id="tecnologias" class="tech">
+    <div class="container">
+        <h2 class="section-title">Tecnologias</h2>
+        <p class="section-subtitle">
+            Ferramentas modernas que utilizo para desenvolver soluções digitais de alto impacto.
+        </p>
+    </div>
+
+    <!-- FAIXA 1 → (Esquerda para Direita) -->
+    <div class="tech-marquee">
+        <div class="tech-track track-right">
+            <div class="tech-item"><i class="fab fa-html5"></i><span>HTML5</span></div>
+            <div class="tech-item"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+            <div class="tech-item"><i class="fab fa-js"></i><span>JavaScript</span></div>
+            <div class="tech-item"><i class="fab fa-react"></i><span>React</span></div>
+            <div class="tech-item"><i class="fab fa-node-js"></i><span>Node.js</span></div>
+            <div class="tech-item"><i class="fab fa-git-alt"></i><span>Git</span></div>
+            <div class="tech-item"><i class="fab fa-github"></i><span>GitHub</span></div>
+            <div class="tech-item"><i class="fab fa-python"></i><span>Python</span></div>
+
+            <!-- DUPLICADO para loop infinito -->
+            <div class="tech-item"><i class="fab fa-html5"></i><span>HTML5</span></div>
+            <div class="tech-item"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+            <div class="tech-item"><i class="fab fa-js"></i><span>JavaScript</span></div>
+            <div class="tech-item"><i class="fab fa-react"></i><span>React</span></div>
+            <div class="tech-item"><i class="fab fa-node-js"></i><span>Node.js</span></div>
+            <div class="tech-item"><i class="fab fa-git-alt"></i><span>Git</span></div>
+            <div class="tech-item"><i class="fab fa-github"></i><span>GitHub</span></div>
+            <div class="tech-item"><i class="fab fa-python"></i><span>Python</span></div>
+        </div>
+    </div>
+
+    <!-- FAIXA 2 ← (Direita para Esquerda) -->
+    <div class="tech-marquee">
+        <div class="tech-track track-left">
+            <div class="tech-item"><i class="fab fa-figma"></i><span>Figma</span></div>
+            <div class="tech-item"><i class="fas fa-robot"></i><span>GPT / IA</span></div>
+            <div class="tech-item"><i class="fas fa-network-wired"></i><span>n8n</span></div>
+            <div class="tech-item"><i class="fab fa-docker"></i><span>Docker</span></div>
+            <div class="tech-item"><i class="fas fa-database"></i><span>MongoDB</span></div>
+            <div class="tech-item"><i class="fas fa-fire"></i><span>Firebase</span></div>
+            <div class="tech-item"><i class="fas fa-wind"></i><span>Tailwind</span></div>
+            <div class="tech-item"><i class="fas fa-image"></i><span>Photoshop</span></div>
+
+            <!-- DUPLICADO -->
+            <div class="tech-item"><i class="fab fa-figma"></i><span>Figma</span></div>
+            <div class="tech-item"><i class="fas fa-robot"></i><span>GPT / IA</span></div>
+            <div class="tech-item"><i class="fas fa-network-wired"></i><span>n8n</span></div>
+            <div class="tech-item"><i class="fab fa-docker"></i><span>Docker</span></div>
+            <div class="tech-item"><i class="fas fa-database"></i><span>MongoDB</span></div>
+            <div class="tech-item"><i class="fas fa-fire"></i><span>Firebase</span></div>
+            <div class="tech-item"><i class="fas fa-wind"></i><span>Tailwind</span></div>
+            <div class="tech-item"><i class="fas fa-image"></i><span>Photoshop</span></div>
+        </div>
+    </div>
+
+    <!-- FAIXA 3 → (Esquerda para Direita, mais lenta) -->
+    <div class="tech-marquee">
+        <div class="tech-track track-right track-slow">
+            <div class="tech-item"><i class="fab fa-sass"></i><span>Sass</span></div>
+            <div class="tech-item"><i class="fas fa-code-branch"></i><span>Next.js</span></div>
+            <div class="tech-item"><i class="fas fa-server"></i><span>PostgreSQL</span></div>
+            <div class="tech-item"><i class="fab fa-npm"></i><span>NPM</span></div>
+            <div class="tech-item"><i class="fas fa-terminal"></i><span>Terminal</span></div>
+            <div class="tech-item"><i class="fas fa-cloud"></i><span>Vercel</span></div>
+            <div class="tech-item"><i class="fab fa-bootstrap"></i><span>Bootstrap</span></div>
+            <div class="tech-item"><i class="fas fa-cogs"></i><span>API REST</span></div>
+
+            <!-- DUPLICADO -->
+            <div class="tech-item"><i class="fab fa-sass"></i><span>Sass</span></div>
+            <div class="tech-item"><i class="fas fa-code-branch"></i><span>Next.js</span></div>
+            <div class="tech-item"><i class="fas fa-server"></i><span>PostgreSQL</span></div>
+            <div class="tech-item"><i class="fab fa-npm"></i><span>NPM</span></div>
+            <div class="tech-item"><i class="fas fa-terminal"></i><span>Terminal</span></div>
+            <div class="tech-item"><i class="fas fa-cloud"></i><span>Vercel</span></div>
+            <div class="tech-item"><i class="fab fa-bootstrap"></i><span>Bootstrap</span></div>
+            <div class="tech-item"><i class="fas fa-cogs"></i><span>API REST</span></div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicos" class="services">
+        <div class="container">
+            <h2 class="section-title">Serviços</h2>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Criação de Sites</h3>
+                    <p>Landing Pages, Sites Básicos e Profissionais com foco em conversão</p>
+                    <p class="price">Sob consulta</p>
+                    <a href="https://wa.me/5522981611821?text=Olá%20Guilherme!%20Gostaria%20de%20conhecer%20mais%20sobre%20seus%20serviços%20de%20desenvolvimento%20web%20e%20consultoria%20em%20IA." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block">
+                        Solicitar Orçamento
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <h3>Aplicativos</h3>
+                    <p>Apps web e mobile com tecnologias modernas e escaláveis</p>
+                    <p class="price">Sob consulta</p>
+                    <a href="https://wa.me/5522981611821?text=Olá%20Guilherme!%20Gostaria%20de%20conhecer%20mais%20sobre%20seus%20serviços%20de%20desenvolvimento%20web%20e%20consultoria%20em%20IA." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block">
+                        Solicitar Orçamento
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <h3>Identidade Visual</h3>
+                    <p>Branding completo: logo, paleta de cores e guidelines</p>
+                    <p class="price">Sob consulta</p>
+                    <a href="https://wa.me/5522981611821?text=Olá%20Guilherme!%20Gostaria%20de%20conhecer%20mais%20sobre%20seus%20serviços%20de%20desenvolvimento%20web%20e%20consultoria%20em%20IA." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block">
+                        Solicitar Orçamento
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <h3>Consultoria Tech & IA</h3>
+                    <p>Estratégia digital e integração de inteligência artificial</p>
+                    <p class="price">Sob consulta</p>
+                    <a href="https://wa.me/5522981611821?text=Olá%20Guilherme!%20Gostaria%20de%20conhecer%20mais%20sobre%20seus%20serviços%20de%20desenvolvimento%20web%20e%20consultoria%20em%20IA." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block">
+                        Solicitar Orçamento
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Portfólio</h2>
+            <p class="section-subtitle">Confira alguns dos projetos que desenvolvi. Para mais detalhes, visite meu GitHub e LinkedIn.</p>
+            
+            <div class="portfolio-links">
+                <a href="https://github.com/braguilweb" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/guilherme-de-almeida-braga/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </div>
+
+            <!-- Static Portfolio Cards with Images -->
+            <div class="portfolio-grid portfolio-static">
+                <a href="https://braguilweb.github.io/clinica-sorrir-bem/" class="portfolio-item portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="img/site-dentista.png" alt="Site Dentista" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-view">Ver Projeto <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Clínica Odontológica</h3>
+                        <p>Site profissional para clínica dentária com agendamento online e design moderno.</p>
+                        <div class="portfolio-meta">
+                            <span class="portfolio-tag">HTML</span>
+                            <span class="portfolio-tag">CSS</span>
+                            <span class="portfolio-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://braguilweb.github.io/restaurante-bella-vista/" class="portfolio-item portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="img/site-restaurante.png" alt="Site Restaurante" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-view">Ver Projeto <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Restaurante Gourmet</h3>
+                        <p>Website elegante para restaurante com cardápio digital e sistema de reservas.</p>
+                        <div class="portfolio-meta">
+                            <span class="portfolio-tag">HTML5</span>
+                            <span class="portfolio-tag">CSS3</span>
+                            <span class="portfolio-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://braguilweb.github.io/studio-bella-arte/" class="portfolio-item portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="img/site-salao-beleza.png" alt="Site Salão de Beleza" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-view">Ver Projeto <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Salão de Beleza</h3>
+                        <p>Landing page moderna para salão de beleza com galeria de serviços e agendamento.</p>
+                        <div class="portfolio-meta">
+                            <span class="portfolio-tag">HTML5</span>
+                            <span class="portfolio-tag">CSS3</span>
+                            <span class="portfolio-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://parei-aqui.vercel.app/" class="portfolio-item portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="img/app-parei-aqui.png" alt="App Parei Aqui" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-view">Ver Projeto <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>App Parei Aqui</h3>
+                        <p>Aplicativo mobile para registro e compartilhamento de locais favoritos.</p>
+                        <div class="portfolio-meta">
+                            <span class="portfolio-tag">React</span>
+                            <span class="portfolio-tag">Node.js</span>
+                            <span class="portfolio-tag">Leaflet</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://project-game-memorize.vercel.app/" class="portfolio-item portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="img/game-memorize.png" alt="App Game Memorize" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-view">Ver Projeto <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>App Parei Aqui</h3>
+                        <p>Aplicativo mobile para registro e compartilhamento de locais favoritos.</p>
+                        <div class="portfolio-meta">
+                            <span class="portfolio-tag">HTML5</span>
+                            <span class="portfolio-tag">CSS3</span>
+                            <span class="portfolio-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </a>
+
+            </div>           
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2 class="section-title">Vamos Conversar?</h2>
+            <p class="section-subtitle">Entre em contato para discutir seu projeto e como posso ajudar seu negócio a crescer digitalmente.</p>
+            
+            <div class="contact-grid">
+                <a href="https://wa.me/5522981611821?text=Olá%20Guilherme!%20Gostaria%20de%20conhecer%20mais%20sobre%20seus%20serviços%20de%20desenvolvimento%20web%20e%20consultoria%20em%20IA." target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <i class="fas fa-comments"></i>
+                    <h3>WhatsApp</h3>
+                    <p>(22) 98161-1821</p>
+                </a>
+
+                <a href="mailto:contato@guilhermebraga.site" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>contato@guilhermebraga.site</p>
+                </a>
+
+                <a href="https://instagram.com/estudio.braga" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <i class="fab fa-instagram"></i>
+                    <h3>Instagram</h3>
+                    <p>@estudio.braga</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Guilherme Braga. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
