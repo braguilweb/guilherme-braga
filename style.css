@@ -99,6 +99,28 @@ p {
 }
 
 /* ============================================
+   LOGO
+   ============================================ */
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--accent);
+    text-decoration: none;
+    transition: var(--transition);
+    display: inline-flex;
+    align-items: center;
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--accent);
+    opacity: 0.9;
+}   
+
+
+
+/* ============================================
    BUTTONS
    ============================================ */
 
